@@ -59,7 +59,7 @@ public class HomeCreditTests extends TestBase {
             mainPage.openPage();
         });
         step("Проверяем наличие Title", () -> {
-            String expectedTitle = "Банк Хоум Кредит";
+            String expectedTitle = "Банк Хоум Кредит - кредиты, вклады, карта рассрочки, кредитные и дебетовые карты, онлайн банк";
             String actualTitle = title();
 
             assertThat(actualTitle).isEqualTo(expectedTitle);
